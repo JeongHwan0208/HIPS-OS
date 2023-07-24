@@ -2,7 +2,11 @@
 
 ## :memo: Intro.
 
-**운영체제(Operating System)** 스터디 | 2023.07.24 ~ 2023.08.21 **HIPS** 스터디 (4주)<br>
+- **운영체제(Operating System)** 스터디 | 2023.07.24 ~ 2023.08.21 **HIPS** 스터디 (4주)<br>
+
+- 책: [혼자 공부하는 컴퓨터 구조 + 운영체제](https://product.kyobobook.co.kr/detail/S000061584886)<br>
+
+- 강의: [인프런-운영체제 공룡책 강의](https://www.inflearn.com/course/운영체제-공룡책-전공강의)<br>
 
 ---
 
