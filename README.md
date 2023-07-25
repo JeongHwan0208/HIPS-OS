@@ -22,7 +22,7 @@
 
 ---
 
-## :computer: Repository 업로드
+## :computer: GitHub Repository 업로드
 
 ### I. commit message 규칙
 
