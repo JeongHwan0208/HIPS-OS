@@ -12,11 +12,11 @@
 
 ## :chart_with_upwards_trend: 진행
 
-- 해당 Repository를 fork 합니다.<br>
+- 해당 Repository를 Fork 합니다.<br>
 
 - 세미나 발표 담당자는 해당 파트의 책과 인프런 강의를 듣고, TIL을 정리합니다.<br>
 
-- 세미나 발표 담당자는 **일요일 23:00**까지 main으로 `Pull requests`를 요청해야 합니다.<br>
+- 세미나 발표 담당자는 **일요일 23:00**까지 main으로 `Pull Requests`를 요청해야 합니다.<br>
 
 - 그 외 부원들은 책 주차 진도 맞춰서 공부해오면 됩니다.<br>
 
@@ -24,7 +24,7 @@
 
 ## :computer: GitHub Repository 업로드
 
-### I. commit message 규칙
+### I. PR 규칙
 
 ```bash
 # 등록
@@ -37,10 +37,6 @@ ex) add Chapter 9 운영체제 시작하기 img files
 # 수정
 modify Chapter명 md files
 ex) modify Chapter 9 운영체제 시작하기 md file
-
-# Pull-requests
-이름 Chapter명 TIL 완료
-ex) 김동현 Chapter 9 운영체제 시작하기 TIL 완료
 ```
 
 <br>
@@ -61,14 +57,6 @@ chapter명 디렉터리를 생성하고, 그 안에서 마크다운 문서와 �
 
 - ex) img파일 경로: ~/chapter1/img/os0101.png<br>
 
-<br>
-
-### III. branch 규칙
-
-- 본인 이름의 브랜치에서만 작업해야 합니다.<br>
-
-- TIL 작성을 완료하면, main으로 Pull requests를 요청합니다.<br>
-
 ---
 
 ## :calendar: 발표 일정
@@ -82,6 +70,3 @@ chapter명 디렉터리를 생성하고, 그 안에서 마크다운 문서와 �
 |          |            | :book: 13단원: 교착 상태<br>:tv: 섹션7: Deadlocks            | 백정원                                  |              |
 | 4주차    | 2023-08-21 | :book: 14단원: 가상 메모리<br>:tv: 섹션8: Main memory<br>:tv: 섹션9: Virtual Memory | [홍민기](https://github.com/mingimouse) |              |
 |          |            | :book: 15단원: 파일 시스템<br>:tv: 섹션10: Storage Management<br>:tv: 섹션11: Security & Protection | 김동현                                  |              |
-
-
-
