@@ -2,7 +2,7 @@
 
 ## :memo: Intro.
 
-**운영체제(Operating System)** 스터디 | 2023.08.07 ~ 2023.08.28 **HIPS** 스터디 (4주)<br>
+**운영체제(Operating System)** 스터디 | 2023.08.07 ~ 2023.08.28 **HIPS** 스터디<br>
 
 ---
 
