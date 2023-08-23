@@ -13,7 +13,7 @@
     파일 형식, 위치, 크기 등 관련된 다양한 정보
     
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-1.png)
 
 ## 파일 속성과 유형
 
@@ -63,15 +63,14 @@
 
 **1단계 디렉터리(single-level directory)** : 모든 파일이 하나의 디렉터리 아래에 있는 구조
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%201.png)
-
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-2.png)
 컴퓨터 용량이 커지면서 저장할 수 있는 파일도 많아지고, 1단계 디렉터리로는 많은 파일을 관리하기가 어렵다.
 
 **트리 구조 디렉터리(tree-structured directory)** : 최상위 디렉터리가 있고 그 아래에 여러 서브 디렉터리(자식 디렉터리)가 있는 구조. 
 
 최상위 디렉터리는 흔히 **루트 디렉터리**라고 부르고 슬래시(/)로 표현.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%202.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-3.png)
 
 **경로** : 디렉터리를 이용해 파일 위치, 나아가 파일 이름을 특정 짓는 정보
 
@@ -115,11 +114,11 @@ guest/d.jpg → ./guest/d.jpg
 
 디렉터리 엔트리만 보아도 해당 디렉터리에 무엇이 담겨 있는지, 그리고 그것들은 보조기억장치의 어디에 있는지를 직간접적으로 알 수 있다. 
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%203.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-4.png)
 
 ex) home 디렉터리 → guest 디렉터리
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%204.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-5.png)
 
 디렉터리 엔트리를 통해 보조기억장치에 저장된 위치를 알 수 있기 때문에 home디렉터리에서 guest 디렉터리가 저장된 곳을 알 수 있고 이동할 수도 있다. 
 
@@ -135,7 +134,7 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 **파티션** : 파티셔닝 작업을 통해 나누어진 영역 하나하나
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%205.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-6.png)
 
 **포매팅(formatting)** : 파일 시스템을 설정하여 어떤 방식으로 파일을 저장하고 관리할 것인지를 결정하고, 새로운 데이터를 쓸 준비를 하는 작업. 
 
@@ -145,7 +144,7 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 **논리적 포매팅** : 파일 시스템을 생성하는 포매팅.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%206.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-7.png)
 
 파일 시스템에는 여러 종류가 있고, 파티션마다 다른 파일 시스템을 설정할 수도 있다.
 
@@ -168,11 +167,11 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 **연속 할당(contiguous allocation)** : 보조기억장치 내 연속적인 블록에 파일을 할당하는 방식.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%207.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-8.png)
 
 연속으로 할당된 파일에 접근하기 위해서는 파일의 첫 번째 블록 주소와 블록 단위의 길이만 알면 된다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%208.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-9.png)
 
 연속 할당을 사용하는 파일 시스템에서는 디렉터리 엔트리에 파일 이름, 첫 번째 블록 주소, 블록 단위의 길이를 명시한다.
 
@@ -180,11 +179,11 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 **단점** : **외부 단편화**를 야기한다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%209.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-10.png)
 
 파일 A, 파일 C 삭제
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2010.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-11.png)
 
 할당할 수 있는 블록은 총 10개지만, 크기가 블록 7개 이상을 사용하는 파일은 할당할 수 없다.
 
@@ -198,7 +197,7 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 마지막 블록에는 다음 블록이 없다는 특별한 표시자를 사용한다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2011.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-12.png)
 
 연결 할당을 사용하는 파일 시스템은 디렉터리 엔트리에 연속 할당과 마찬가지로 파일 이름, 첫 번째 블록 주소, 블록 단위의 길이를 명시한다.
 
@@ -229,7 +228,7 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 색인 블록 안에 파일을 구성하는 데이터 블록 주소가 있으므로 색인 블록만 알면 해당 파일 데이터에 접근할 수 있다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2012.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-13.png)
 
 색인 할당을 사용하는 파일 시스템은 디렉터리 엔트리에 파일 이름, 색인 블록 주소를 명시한다.
 
@@ -244,15 +243,15 @@ guest 디렉터리 엔트리에는 디렉터리에 속한 파일들의 이름과
 
 연결 할당의 근본적인 원인은 블록 안에 다음 블록의 주소를 저장한 것이다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2013.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-14.png)
 
 **파일 할당 테이블(FAT; File Allocation Table)** : 각 블록에 포함된 다음 블록의 주소들을 한데 모아 놓은 테이블 형태
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2014.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-15.png)
 
 파일의 첫 번째 블록 주소만 알면 파일의 데이터가 담긴 모든 블록에 접근할 수 있다.
 
-![FAT 영역에는 FAT가 저장되고, 루트 디렉터리가 저장되는 영역이 있고, 서브 디렉터리와 파일들을 위한 영역이 존재한다.](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2015.png)
+![FAT 영역에는 FAT가 저장되고, 루트 디렉터리가 저장되는 영역이 있고, 서브 디렉터리와 파일들을 위한 영역이 존재한다.](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-16.png)
 
 FAT 영역에는 FAT가 저장되고, 루트 디렉터리가 저장되는 영역이 있고, 서브 디렉터리와 파일들을 위한 영역이 존재한다.
 
@@ -262,7 +261,7 @@ FAT가 메모리에 적재된 채 실행되면 기존 연결 할당보다 다음
 
 FAT 파일 시스템의 디렉터리 엔트리에는 파일 이름과 첫 번째 블록 주소가 명시되고, 이외에도 파일 속성과 관련한 다양한 정보들이 있다.
 
-![FAT 파일 시스템에서 디렉터리들은 이런 형식으로 블록에 저장된다.](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2016.png)
+![FAT 파일 시스템에서 디렉터리들은 이런 형식으로 블록에 저장된다.](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-17.png)
 
 FAT 파일 시스템에서 디렉터리들은 이런 형식으로 블록에 저장된다.
 
@@ -270,7 +269,7 @@ FAT 파일 시스템에서 디렉터리들은 이런 형식으로 블록에 저�
 
 ex) /home/minchul/a.sh에 접근
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2017.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-18.png)
 
 1. 루트 디렉터리에서 home 디렉터리가 몇 번 블록에 있는지 살펴본다. 3번 블록
 2. 3번 블록에 home 디렉터리에서 minchul 디렉터리가 몇 번 블록에 있는지 살펴본다. 15번 블록
@@ -286,13 +285,13 @@ ex) /home/minchul/a.sh에 접근
 - 파일 속성 정보와 열다섯 개의 블록 주소가 저장될 수 있다.
 - 유닉스 파일 시스템에서는 파일 속성 정보는 i-node에 표현된다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2018.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-19.png)
 
 파일마다 i-node가 있고, i-node마다 번호가 부여되어 있다.
 
 i-node들은 파티션 내 i-node영역에 들어있고, 데이터 영역에는 디렉터리와 파일들이 있다.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2019.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-20.png)
 
 **i-node의 크기 제한을 해결하는 방법**
 
@@ -300,19 +299,19 @@ i-node들은 파티션 내 i-node영역에 들어있고, 데이터 영역에는 
     
     **직접 블록(direct block)** : 파일 데이터가 저장된 블록
     
-    ![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2020.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-21.png)
     
 2. **1번으로 충분하지 않다면 열세 번째 주소에 단일 간접 블록 주소를 저장한다.**
     
     **단일 간접 블록(single indirect block)** : 파일 데이터가 저장된 블록이 아닌 파일 데이터를 저장한 블록 주소가 저장된 블록
     
-    ![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2021.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-22.png)
     
 3. **2번으로 충분하지 않다면 열네 번째 주소에 이중 간접 블록 주소를 저장한다.**
     
     **이중 간접 블록(double indirect block)** : 데이터 블록 주소를 저장하는 블록 주소가 저장된 블록
     
-    ![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2022.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-23.png)
     
 4. **3번으로 충분하지 않다면 열다섯 번째 주소에 삼중 간접 블록 주소를 저장한다.**
     
@@ -320,15 +319,14 @@ i-node들은 파티션 내 i-node영역에 들어있고, 데이터 영역에는 
     
     웬만한 크기의 파일의 표현이 가능하다.
     
-    ![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2023.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-24.png)
     
 
 **유닉스 파일 시스템에서 파일을 읽는 과정**
 
 ex) /home/minchul/a.sh에 접근
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%2024.png)
-
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/15-25.png)
 파일 시스템은 우선 루트 디렉터리 위치부터 찾는다. 루트 디렉터리 위치는 루트 디렉터리의 i-node 보면 알 수 있고, 유닉스 파일 시스템은 루트 디렉터리의 i-node번호를 항상 기억한다.
 
 1. 2번 i-node에 접근해 루트 디렉터리의 위치를 파악한다. 1번 블록
