@@ -271,3 +271,4 @@ void *do_work_two(void *param)
 
 - 비용을 최소화할 victim process를 선정한다.
 - safe state로 return하고 프로세스를 재시작한다.
+.
