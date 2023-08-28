@@ -10,7 +10,8 @@
 
 동그란 원탁에 다섯 명의 철학자가 앉아 있다. 이 철학자들 앞에 있는 맛있는 식사가 있고, 철학자들 사이 사이에는 식사에 필요한 포크가 있다. 그리고 철학자들 앞에 있는 식사는 두 개의 포크로 먹을 수 있는 음식이라 가정하자
 
-![1](C:\Users\pc\Desktop\발표\이미지\1.jpg)
+![1](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/1.jpg
+)
 
 철학자들은 아래와 같은 순서로 식사를 한다.
 
@@ -82,29 +83,31 @@ void *do_work_two(void *param)
 
 1. **프로세스는 원으로, 자원의 종류는 사각형으로 표현한다.**
 
-![2](C:\Users\pc\Desktop\발표\이미지\2.jpg)
+![2](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/2.jpg
+)
 
 2. **사용할 수 있는 자원의 개수는 자원 사각형 내에 점으로 표현한다.**
 
   같은 자원이라 할지라도 사용 가능한 자원의 개수는 여러 개 있을 수 있습니다.
 
-![3](C:\Users\pc\Desktop\발표\이미지\3.jpg)
+![3](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/3.jpg)
 
 3. **프로세스가 어떤 자원을 할당받아 사용 중이라면 자원에서 프로세스를 향해 화살표를 표시합니다.**
 
-​                                                     ![4](C:\Users\pc\Desktop\발표\이미지\4.jpg)
+​                                                     ![4](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/4.jpg)
 
 4. **프로세스가 어떤 자원을 기다리고 있다면 프로세스에서 자원으로 화살표를 표시합니다.**
 
-![5](C:\Users\pc\Desktop\발표\이미지\5.jpg)
+![5](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/5.jpg)
 
 예제 1)
 
-![6](C:\Users\pc\Desktop\발표\이미지\6.jpg)
+![6](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/6.jpg
+)
 
 예제 2)
 
-![7](C:\Users\pc\Desktop\발표\이미지\7.jpg)
+![7](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/7.jpg)
 
 이로써 알 수 있는 중요한 점은
 
@@ -144,7 +147,7 @@ void *do_work_two(void *param)
 
 결과적으로
 
-![8](C:\Users\pc\Desktop\발표\이미지\8.jpg)
+![8](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/8.jpg)
 
 ### **Avoidance Alogrithm**
 
@@ -155,7 +158,7 @@ void *do_work_two(void *param)
 
 ​       -> 요청할 때 점선이 실선으로 바뀜. 이 때 cycle이 생기지 않으면 자원을 할당한다.
 
-![9](C:\Users\pc\Desktop\발표\이미지\9.jpg)
+![9](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/9.jpg)
 
  위와 같은 상황에서 P2가 R2를 요청해 할당받게 되면 Cycle이 생기게 된다. 이러한 경우 Resource를 할당받지 않고 P1이 끝나기를 기다린다.
 
@@ -224,17 +227,17 @@ void *do_work_two(void *param)
 
 **Safety Algorithm**  예제)
 
-![10](C:\Users\pc\Desktop\발표\이미지\10.jpg)
+![10](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/10.jpg)
 
 각 자원의 타입은 A = 10, B = 5, C = 7이다.
 
  Need를 구해야하기 때문에 Need[i] [j]= Max[i] [j] - Allocation[i] [j] 사용해서 구해준다.
 
-![11](C:\Users\pc\Desktop\발표\이미지\11.jpg)
+![11](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/11.jpg)
 
 그 후
 
-![12](C:\Users\pc\Desktop\발표\이미지\12.jpg)
+![12](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/12.jpg)
 
 규칙을 이용해 구해준다.
 
