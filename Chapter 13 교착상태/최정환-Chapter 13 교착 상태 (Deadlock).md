@@ -243,7 +243,7 @@ void *do_work_two(void *param)
 
 **Resource-Request Algorithm** 예제)
 
-![13](C:\Users\pc\Desktop\발표\이미지\13.jpg)
+![13](https://github.com/JeongHwan0208/HIPS-OS/blob/main/Chapter%2013%20%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80/13.jpg)
 
 ### 교착 상태 검출 후 회복
 
